@@ -7,8 +7,8 @@ Todo el contenido actual es **preliminar**. Nada está bloqueado salvo los logos
 | Qué | Dónde / cómo |
 | --- | --- |
 | Imagen | Reemplazar el archivo con el mismo nombre en `FB_V01_ASSETS/` (o cambiar la ruta en `scenes.jsx`) y subir `?v=` en `A()`. Encuadre con `pos` (object-position) del componente `Photo`. |
-| Texto, captions, VO | `scenes.jsx`, por escena. |
-| Duraciones / orden | Lista de escenas en `Master Sequence.html`. |
+| Texto, captions, VO, cifras, imágenes, duraciones, orden | Panel Editor de `Master Sequence.html` o `ui_kits/video-master/content/video-01.content.js` (por escena: `vo`, `vo_propuesta`, `headline`, `stats`, `images`, `duration`). |
+| Duraciones / orden | Campo `duration` y orden de `scenes` en el contenido (o botones del Editor). |
 | Colores y tipografía | `styles.css` y `tokens/` (Montserrat; Ocean sobre blanco). |
 | Guion y storyboard | `guiones/video-01/`. |
 

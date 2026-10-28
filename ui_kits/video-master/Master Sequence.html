@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FB_V01 Master Sequence</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Source+Serif+4:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+  <main class="stage-wrap">
+    <div class="stage-frame"><div id="stage" class="stage"></div></div>
+    <div class="bar">
+      <button id="play" title="Play / pause (space)">▶</button>
+      <input id="seek" type="range" min="0" max="1000" value="0">
+      <span id="time" class="mono">0:00 / 0:00</span>
+      <label><input type="checkbox" id="optCaps" checked> Captions</label>
+      <label><input type="checkbox" id="optProp"> Voz activa (propuesta)</label>
+      <label><input type="checkbox" id="optGuides"> Guías</label>
+    </div>
+  </main>
+  <aside class="editor" id="editor"></aside>
+</div>
+<script src="content/video-01.content.js"></script>
+<script src="scenes.js"></script>
+</body>
+</html>

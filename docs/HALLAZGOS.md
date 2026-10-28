@@ -13,6 +13,7 @@ Actualizado a partir de `HANDOFF.md` y de la auditoría de guion/storyboard del 
 | T5 | Limitación | HTML autónomo requiere `<template id="__bundler_thumbnail">`. | Añadirlo antes de empaquetar. |
 | T6 | Mejora | `LOGO` en `scenes.jsx` apunta a `assets/logos/fulbright-comexus-logo.png`; podría estar obsoleto. | Verificar uso; unificar con `LOGO_Fulbright.png` / `LOGO_COMEXUS.png`. |
 | T7 | Mejora | Cache-bust `?v=3` manual en `A()`. | Subir el número al reemplazar imágenes (o automatizarlo). |
+| T9 | Mejora | Contenido codificado en JSX no era editable por no programadores. | Resuelto: contenido en `content/video-01.content.js` + Editor en el reproductor. |
 | T8 | Repo | El repositorio estaba vacío (API 409). | Resuelto en esta actualización: estructura inicial y documentación. Falta subir el código y los assets. |
 
 ## B. Auditoría de guion y marca (Video 1)
